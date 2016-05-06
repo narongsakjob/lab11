@@ -20,8 +20,7 @@ public class Student {
 	 * @param lastname
 	 * @param birthdate
 	 */
-	public Student(String id, String firstname, String lastname,
-			String birthday) {
+	public Student(String id, String firstname, String lastname,String birthday) {
 		this.id = id;
 		this.firstname = firstname;
 		this.lastname = lastname;
@@ -60,7 +59,7 @@ public class Student {
 	public String getId() {
 		return id;
 	}
-	
+
 	/**
 	 * A hacky method for setting the birthdate using String.
 	 * @param datestr is a String containing birthday in the format "dd/mm/yyyy".
